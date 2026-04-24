@@ -157,3 +157,37 @@ Summarized Push Notification: Bot X and N others interacted
 * README Documentation
 
 ---
+
+# 📬 Postman Collection Details
+
+The Postman collection includes the following APIs:
+
+1. Create Post
+   POST /api/posts
+
+2. Add Comment
+   POST /api/posts/{postId}/comments
+
+3. Like Post
+   POST /api/posts/{postId}/like
+
+4. Bot Comment (with guardrails testing)
+
+---
+
+## 🧪 Testing Scenarios Included
+
+* Normal post creation
+* Human interactions (likes/comments)
+* Bot interaction limits
+* Cooldown validation
+* Stress testing (concurrent requests)
+
+---
+
+👉 To use:
+
+* Import the JSON file into Postman
+* Update base URL if needed
+* Run requests
+
